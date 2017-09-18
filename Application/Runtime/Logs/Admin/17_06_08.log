@@ -1,0 +1,1271 @@
+[ 2017-06-08T08:55:21+08:00 ] 127.0.0.1 /admin.php/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `xm_user` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `xm_user` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_user` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `uid`,`username`,`password`,`email`,`mobile`,`login`,`reg_time`,`reg_ip`,`last_login_ip`,`last_login_time`,`update_time`,`status` FROM `xm_user` WHERE `status` = 0 ORDER BY uid desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: vo D:\wamp\www\toumei\Application\Runtime\Cache\Admin\348efd2a0dd83b3e88e89458f20a0b1c.php 第 41 行.
+NOTIC: [8] Undefined variable: vo D:\wamp\www\toumei\Application\Runtime\Cache\Admin\348efd2a0dd83b3e88e89458f20a0b1c.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-08T08:55:24+08:00 ] 127.0.0.1 /admin.php/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: select version() as v; [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-06-08T08:55:25+08:00 ] 127.0.0.1 /admin.php/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xm_user` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `xm_user` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_user` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `uid`,`username`,`password`,`email`,`mobile`,`login`,`reg_time`,`reg_ip`,`last_login_ip`,`last_login_time`,`update_time`,`status` FROM `xm_user` WHERE `status` = 0 ORDER BY uid desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: vo D:\wamp\www\toumei\Application\Runtime\Cache\Admin\348efd2a0dd83b3e88e89458f20a0b1c.php 第 41 行.
+NOTIC: [8] Undefined variable: vo D:\wamp\www\toumei\Application\Runtime\Cache\Admin\348efd2a0dd83b3e88e89458f20a0b1c.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-08T08:55:25+08:00 ] 127.0.0.1 /admin.php/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: select version() as v; [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-08T08:55:26+08:00 ] 127.0.0.1 /admin.php/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xm_user` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `xm_user` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_user` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `uid`,`username`,`password`,`email`,`mobile`,`login`,`reg_time`,`reg_ip`,`last_login_ip`,`last_login_time`,`update_time`,`status` FROM `xm_user` WHERE `status` = 0 ORDER BY uid desc LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: vo D:\wamp\www\toumei\Application\Runtime\Cache\Admin\348efd2a0dd83b3e88e89458f20a0b1c.php 第 41 行.
+NOTIC: [8] Undefined variable: vo D:\wamp\www\toumei\Application\Runtime\Cache\Admin\348efd2a0dd83b3e88e89458f20a0b1c.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-08T08:55:43+08:00 ] 127.0.0.1 /admin.php/User/index.html?username=hao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xm_user` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `xm_user` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_user` WHERE `status` = 0 AND `username` LIKE '%hao%' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `uid`,`username`,`password`,`email`,`mobile`,`login`,`reg_time`,`reg_ip`,`last_login_ip`,`last_login_time`,`update_time`,`status` FROM `xm_user` WHERE `status` = 0 AND `username` LIKE '%hao%' ORDER BY uid desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: vo D:\wamp\www\toumei\Application\Runtime\Cache\Admin\348efd2a0dd83b3e88e89458f20a0b1c.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-08T08:56:59+08:00 ] 127.0.0.1 /admin.php/User/index.html?username=tou
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `xm_user` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `xm_user` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_user` WHERE `status` = 0 AND `username` LIKE '%tou%' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `uid`,`username`,`password`,`email`,`mobile`,`login`,`reg_time`,`reg_ip`,`last_login_ip`,`last_login_time`,`update_time`,`status` FROM `xm_user` WHERE `status` = 0 AND `username` LIKE '%tou%' ORDER BY uid desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: vo D:\wamp\www\toumei\Application\Runtime\Cache\Admin\348efd2a0dd83b3e88e89458f20a0b1c.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-08T08:57:57+08:00 ] 127.0.0.1 /admin.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-08T08:57:57+08:00 ] 127.0.0.1 /admin.php/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: select version() as v; [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-08T08:58:00+08:00 ] 127.0.0.1 /admin.php/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `xm_user` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `xm_user` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_user` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `uid`,`username`,`password`,`email`,`mobile`,`login`,`reg_time`,`reg_ip`,`last_login_ip`,`last_login_time`,`update_time`,`status` FROM `xm_user` WHERE `status` = 0 ORDER BY uid desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: vo D:\wamp\www\toumei\Application\Runtime\Cache\Admin\348efd2a0dd83b3e88e89458f20a0b1c.php 第 41 行.
+NOTIC: [8] Undefined variable: vo D:\wamp\www\toumei\Application\Runtime\Cache\Admin\348efd2a0dd83b3e88e89458f20a0b1c.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-08T08:58:03+08:00 ] 127.0.0.1 /admin.php/User/index.html?username=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xm_user` [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `xm_user` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_user` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `uid`,`username`,`password`,`email`,`mobile`,`login`,`reg_time`,`reg_ip`,`last_login_ip`,`last_login_time`,`update_time`,`status` FROM `xm_user` WHERE `status` = 0 ORDER BY uid desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: vo D:\wamp\www\toumei\Application\Runtime\Cache\Admin\348efd2a0dd83b3e88e89458f20a0b1c.php 第 41 行.
+NOTIC: [8] Undefined variable: vo D:\wamp\www\toumei\Application\Runtime\Cache\Admin\348efd2a0dd83b3e88e89458f20a0b1c.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-08T08:58:04+08:00 ] 127.0.0.1 /admin.php/User/index.html?username=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xm_user` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `xm_user` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_user` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `uid`,`username`,`password`,`email`,`mobile`,`login`,`reg_time`,`reg_ip`,`last_login_ip`,`last_login_time`,`update_time`,`status` FROM `xm_user` WHERE `status` = 0 ORDER BY uid desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: vo D:\wamp\www\toumei\Application\Runtime\Cache\Admin\348efd2a0dd83b3e88e89458f20a0b1c.php 第 41 行.
+NOTIC: [8] Undefined variable: vo D:\wamp\www\toumei\Application\Runtime\Cache\Admin\348efd2a0dd83b3e88e89458f20a0b1c.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-08T08:58:05+08:00 ] 127.0.0.1 /admin.php/User/index.html?username=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xm_user` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `xm_user` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_user` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `uid`,`username`,`password`,`email`,`mobile`,`login`,`reg_time`,`reg_ip`,`last_login_ip`,`last_login_time`,`update_time`,`status` FROM `xm_user` WHERE `status` = 0 ORDER BY uid desc LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: vo D:\wamp\www\toumei\Application\Runtime\Cache\Admin\348efd2a0dd83b3e88e89458f20a0b1c.php 第 41 行.
+NOTIC: [8] Undefined variable: vo D:\wamp\www\toumei\Application\Runtime\Cache\Admin\348efd2a0dd83b3e88e89458f20a0b1c.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-08T08:59:32+08:00 ] 127.0.0.1 /admin.php/User/index.html?username=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xm_user` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `xm_user` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_user` WHERE `status` = 0 AND ( `uid` = 1 OR `username` LIKE '%1%' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `uid`,`username`,`password`,`email`,`mobile`,`login`,`reg_time`,`reg_ip`,`last_login_ip`,`last_login_time`,`update_time`,`status` FROM `xm_user` WHERE `status` = 0 AND ( `uid` = 1 OR `username` LIKE '%1%' ) ORDER BY uid desc LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: vo D:\wamp\www\toumei\Application\Runtime\Cache\Admin\348efd2a0dd83b3e88e89458f20a0b1c.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-08T08:59:35+08:00 ] 127.0.0.1 /admin.php/User/index.html?username=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xm_user` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `xm_user` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_user` WHERE `status` = 0 AND ( `uid` = 12 OR `username` LIKE '%12%' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `uid`,`username`,`password`,`email`,`mobile`,`login`,`reg_time`,`reg_ip`,`last_login_ip`,`last_login_time`,`update_time`,`status` FROM `xm_user` WHERE `status` = 0 AND ( `uid` = 12 OR `username` LIKE '%12%' ) ORDER BY uid desc LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-08T08:59:37+08:00 ] 127.0.0.1 /admin.php/User/index.html?username=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `xm_user` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `xm_user` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_user` WHERE `status` = 0 AND ( `uid` = 12 OR `username` LIKE '%12%' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `uid`,`username`,`password`,`email`,`mobile`,`login`,`reg_time`,`reg_ip`,`last_login_ip`,`last_login_time`,`update_time`,`status` FROM `xm_user` WHERE `status` = 0 AND ( `uid` = 12 OR `username` LIKE '%12%' ) ORDER BY uid desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-08T08:59:44+08:00 ] 127.0.0.1 /admin.php/User/index.html?username=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xm_user` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `xm_user` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_user` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `uid`,`username`,`password`,`email`,`mobile`,`login`,`reg_time`,`reg_ip`,`last_login_ip`,`last_login_time`,`update_time`,`status` FROM `xm_user` WHERE `status` = 0 ORDER BY uid desc LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: vo D:\wamp\www\toumei\Application\Runtime\Cache\Admin\348efd2a0dd83b3e88e89458f20a0b1c.php 第 41 行.
+NOTIC: [8] Undefined variable: vo D:\wamp\www\toumei\Application\Runtime\Cache\Admin\348efd2a0dd83b3e88e89458f20a0b1c.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-08T09:04:24+08:00 ] 127.0.0.1 /admin.php/User/index.html?username=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xm_user` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `xm_user` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_user` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `uid`,`username`,`password`,`email`,`mobile`,`login`,`reg_time`,`reg_ip`,`last_login_ip`,`last_login_time`,`update_time`,`status` FROM `xm_user` WHERE `status` = 0 ORDER BY uid desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: vo D:\wamp\www\toumei\Application\Runtime\Cache\Admin\348efd2a0dd83b3e88e89458f20a0b1c.php 第 41 行.
+NOTIC: [8] Undefined variable: vo D:\wamp\www\toumei\Application\Runtime\Cache\Admin\348efd2a0dd83b3e88e89458f20a0b1c.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-08T09:04:25+08:00 ] 127.0.0.1 /admin.php/User/index.html?username=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `xm_user` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `xm_user` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_user` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `uid`,`username`,`password`,`email`,`mobile`,`login`,`reg_time`,`reg_ip`,`last_login_ip`,`last_login_time`,`update_time`,`status` FROM `xm_user` WHERE `status` = 0 ORDER BY uid desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: vo D:\wamp\www\toumei\Application\Runtime\Cache\Admin\348efd2a0dd83b3e88e89458f20a0b1c.php 第 41 行.
+NOTIC: [8] Undefined variable: vo D:\wamp\www\toumei\Application\Runtime\Cache\Admin\348efd2a0dd83b3e88e89458f20a0b1c.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-08T09:04:41+08:00 ] 127.0.0.1 /admin.php/User/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xm_user` [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: role_list D:\wamp\www\toumei\Application\Runtime\Cache\Admin\4e1f0ee1a12a8dbb63343fe9e6a3f60d.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-08T09:04:44+08:00 ] 127.0.0.1 /admin.php/User/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xm_user` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\toumei\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-06-08T09:05:13+08:00 ] 127.0.0.1 /admin.php/User/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xm_user` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\toumei\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `xm_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-08T09:05:35+08:00 ] 127.0.0.1 /admin.php/User/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xm_user` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\toumei\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `xm_user` WHERE `username` = 'xiaomei' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: auto D:\wamp\www\toumei\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `xm_user` (`username`,`password`,`email`,`mobile`,`reg_time`,`reg_ip`,`update_time`) VALUES ('xiaomei','96e79218965eb72c92a549dd5a330112','','','1496883935','2130706433','1496883935') [ RunTime:0.0040s ]
+
+[ 2017-06-08T09:05:35+08:00 ] 127.0.0.1 /admin.php/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xm_user` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `xm_user` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_user` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `uid`,`username`,`password`,`email`,`mobile`,`login`,`reg_time`,`reg_ip`,`last_login_ip`,`last_login_time`,`update_time`,`status` FROM `xm_user` WHERE `status` = 0 ORDER BY uid desc LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: vo D:\wamp\www\toumei\Application\Runtime\Cache\Admin\348efd2a0dd83b3e88e89458f20a0b1c.php 第 41 行.
+NOTIC: [8] Undefined variable: vo D:\wamp\www\toumei\Application\Runtime\Cache\Admin\348efd2a0dd83b3e88e89458f20a0b1c.php 第 41 行.
+NOTIC: [8] Undefined variable: vo D:\wamp\www\toumei\Application\Runtime\Cache\Admin\348efd2a0dd83b3e88e89458f20a0b1c.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-08T09:24:43+08:00 ] 127.0.0.1 /admin.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-08T09:24:43+08:00 ] 127.0.0.1 /admin.php/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: select version() as v; [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-08T09:24:44+08:00 ] 127.0.0.1 /admin.php/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xm_user` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `xm_user` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_user` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `uid`,`username`,`password`,`email`,`mobile`,`login`,`reg_time`,`reg_ip`,`last_login_ip`,`last_login_time`,`update_time`,`status` FROM `xm_user` WHERE `status` = 0 ORDER BY uid desc LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: vo D:\wamp\www\toumei\Application\Runtime\Cache\Admin\348efd2a0dd83b3e88e89458f20a0b1c.php 第 41 行.
+NOTIC: [8] Undefined variable: vo D:\wamp\www\toumei\Application\Runtime\Cache\Admin\348efd2a0dd83b3e88e89458f20a0b1c.php 第 41 行.
+NOTIC: [8] Undefined variable: vo D:\wamp\www\toumei\Application\Runtime\Cache\Admin\348efd2a0dd83b3e88e89458f20a0b1c.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-08T09:24:48+08:00 ] 127.0.0.1 /admin.php/User/index.html?username=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `xm_user` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `xm_user` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_user` WHERE `status` = 0 AND ( `uid` = 1 OR `username` LIKE '%1%' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `uid`,`username`,`password`,`email`,`mobile`,`login`,`reg_time`,`reg_ip`,`last_login_ip`,`last_login_time`,`update_time`,`status` FROM `xm_user` WHERE `status` = 0 AND ( `uid` = 1 OR `username` LIKE '%1%' ) ORDER BY uid desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: vo D:\wamp\www\toumei\Application\Runtime\Cache\Admin\348efd2a0dd83b3e88e89458f20a0b1c.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-08T10:08:13+08:00 ] 127.0.0.1 /admin.php/User/index.html?username=1111111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `xm_user` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `xm_user` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_user` WHERE `status` = 0 AND ( `uid` = 1111111 OR `username` LIKE '%1111111%' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `uid`,`username`,`password`,`email`,`mobile`,`login`,`reg_time`,`reg_ip`,`last_login_ip`,`last_login_time`,`update_time`,`status` FROM `xm_user` WHERE `status` = 0 AND ( `uid` = 1111111 OR `username` LIKE '%1111111%' ) ORDER BY uid desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-08T10:08:21+08:00 ] 127.0.0.1 /admin.php/User/index.html?username=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `xm_user` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `xm_user` [ RunTime:0.0110s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_user` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `uid`,`username`,`password`,`email`,`mobile`,`login`,`reg_time`,`reg_ip`,`last_login_ip`,`last_login_time`,`update_time`,`status` FROM `xm_user` WHERE `status` = 0 ORDER BY uid desc LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: vo D:\wamp\www\toumei\Application\Runtime\Cache\Admin\348efd2a0dd83b3e88e89458f20a0b1c.php 第 41 行.
+NOTIC: [8] Undefined variable: vo D:\wamp\www\toumei\Application\Runtime\Cache\Admin\348efd2a0dd83b3e88e89458f20a0b1c.php 第 41 行.
+NOTIC: [8] Undefined variable: vo D:\wamp\www\toumei\Application\Runtime\Cache\Admin\348efd2a0dd83b3e88e89458f20a0b1c.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-08T10:08:35+08:00 ] 127.0.0.1 /admin.php/User/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `xm_user` [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: role_list D:\wamp\www\toumei\Application\Runtime\Cache\Admin\4e1f0ee1a12a8dbb63343fe9e6a3f60d.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-08T10:08:49+08:00 ] 127.0.0.1 /admin.php/User/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `xm_user` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\toumei\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `xm_user` WHERE `username` = 'xmei' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: auto D:\wamp\www\toumei\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `xm_user` (`username`,`password`,`email`,`mobile`,`reg_time`,`reg_ip`,`update_time`) VALUES ('xmei','99a2ed0302ae51f7e0e55782771ebca2','','','1496887729','2130706433','1496887729') [ RunTime:0.0060s ]
+
+[ 2017-06-08T10:08:49+08:00 ] 127.0.0.1 /admin.php/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `xm_user` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `xm_user` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_user` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `uid`,`username`,`password`,`email`,`mobile`,`login`,`reg_time`,`reg_ip`,`last_login_ip`,`last_login_time`,`update_time`,`status` FROM `xm_user` WHERE `status` = 0 ORDER BY uid desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: vo D:\wamp\www\toumei\Application\Runtime\Cache\Admin\348efd2a0dd83b3e88e89458f20a0b1c.php 第 41 行.
+NOTIC: [8] Undefined variable: vo D:\wamp\www\toumei\Application\Runtime\Cache\Admin\348efd2a0dd83b3e88e89458f20a0b1c.php 第 41 行.
+NOTIC: [8] Undefined variable: vo D:\wamp\www\toumei\Application\Runtime\Cache\Admin\348efd2a0dd83b3e88e89458f20a0b1c.php 第 41 行.
+NOTIC: [8] Undefined variable: vo D:\wamp\www\toumei\Application\Runtime\Cache\Admin\348efd2a0dd83b3e88e89458f20a0b1c.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-08T11:45:33+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-08T11:45:33+08:00 ] 127.0.0.1 /admin.php/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-08T11:45:34+08:00 ] 127.0.0.1 /admin.php/Public/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-08T11:45:37+08:00 ] 127.0.0.1 /admin.php/Public/verify.html?0.8512832854883372
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-08T11:45:38+08:00 ] 127.0.0.1 /admin.php/Public/verify.html?0.8512832854883372&random=0.02696968606490535
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-08T11:45:42+08:00 ] 127.0.0.1 /admin.php/Public/verify.html?0.8512832854883372&random=0.02696968606490535&random=0.26739917067207974
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-08T11:45:44+08:00 ] 127.0.0.1 /admin.php/Public/verify.html?0.8512832854883372&random=0.02696968606490535&random=0.26739917067207974&random=0.9927520461335542
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-08T11:45:50+08:00 ] 127.0.0.1 /admin.php/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-08T11:45:50+08:00 ] 127.0.0.1 /admin.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-08T11:45:50+08:00 ] 127.0.0.1 /admin.php/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: select version() as v; [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-08T11:45:57+08:00 ] 127.0.0.1 /admin.php/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `xm_user` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `xm_user` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_user` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `uid`,`username`,`password`,`email`,`mobile`,`login`,`reg_time`,`reg_ip`,`last_login_ip`,`last_login_time`,`update_time`,`status` FROM `xm_user` WHERE `status` = 0 ORDER BY uid desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: vo D:\wamp\www\toumei\Application\Runtime\Cache\Admin\348efd2a0dd83b3e88e89458f20a0b1c.php 第 41 行.
+NOTIC: [8] Undefined variable: vo D:\wamp\www\toumei\Application\Runtime\Cache\Admin\348efd2a0dd83b3e88e89458f20a0b1c.php 第 41 行.
+NOTIC: [8] Undefined variable: vo D:\wamp\www\toumei\Application\Runtime\Cache\Admin\348efd2a0dd83b3e88e89458f20a0b1c.php 第 41 行.
+NOTIC: [8] Undefined variable: vo D:\wamp\www\toumei\Application\Runtime\Cache\Admin\348efd2a0dd83b3e88e89458f20a0b1c.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-08T11:45:59+08:00 ] 127.0.0.1 /admin.php/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `xm_user` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `xm_user` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_user` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `uid`,`username`,`password`,`email`,`mobile`,`login`,`reg_time`,`reg_ip`,`last_login_ip`,`last_login_time`,`update_time`,`status` FROM `xm_user` WHERE `status` = 0 ORDER BY uid desc LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: vo D:\wamp\www\toumei\Application\Runtime\Cache\Admin\348efd2a0dd83b3e88e89458f20a0b1c.php 第 41 行.
+NOTIC: [8] Undefined variable: vo D:\wamp\www\toumei\Application\Runtime\Cache\Admin\348efd2a0dd83b3e88e89458f20a0b1c.php 第 41 行.
+NOTIC: [8] Undefined variable: vo D:\wamp\www\toumei\Application\Runtime\Cache\Admin\348efd2a0dd83b3e88e89458f20a0b1c.php 第 41 行.
+NOTIC: [8] Undefined variable: vo D:\wamp\www\toumei\Application\Runtime\Cache\Admin\348efd2a0dd83b3e88e89458f20a0b1c.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-08T13:11:45+08:00 ] 127.0.0.1 /admin.php/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `xm_user` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `xm_user` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_user` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `uid`,`username`,`password`,`email`,`mobile`,`login`,`reg_time`,`reg_ip`,`last_login_ip`,`last_login_time`,`update_time`,`status` FROM `xm_user` WHERE `status` = 0 ORDER BY uid desc LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: vo D:\wamp\www\toumei\Application\Runtime\Cache\Admin\348efd2a0dd83b3e88e89458f20a0b1c.php 第 41 行.
+NOTIC: [8] Undefined variable: vo D:\wamp\www\toumei\Application\Runtime\Cache\Admin\348efd2a0dd83b3e88e89458f20a0b1c.php 第 41 行.
+NOTIC: [8] Undefined variable: vo D:\wamp\www\toumei\Application\Runtime\Cache\Admin\348efd2a0dd83b3e88e89458f20a0b1c.php 第 41 行.
+NOTIC: [8] Undefined variable: vo D:\wamp\www\toumei\Application\Runtime\Cache\Admin\348efd2a0dd83b3e88e89458f20a0b1c.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-08T13:11:46+08:00 ] 127.0.0.1 /admin.php/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `xm_user` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `xm_user` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_user` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `uid`,`username`,`password`,`email`,`mobile`,`login`,`reg_time`,`reg_ip`,`last_login_ip`,`last_login_time`,`update_time`,`status` FROM `xm_user` WHERE `status` = 0 ORDER BY uid desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined variable: vo D:\wamp\www\toumei\Application\Runtime\Cache\Admin\348efd2a0dd83b3e88e89458f20a0b1c.php 第 41 行.
+NOTIC: [8] Undefined variable: vo D:\wamp\www\toumei\Application\Runtime\Cache\Admin\348efd2a0dd83b3e88e89458f20a0b1c.php 第 41 行.
+NOTIC: [8] Undefined variable: vo D:\wamp\www\toumei\Application\Runtime\Cache\Admin\348efd2a0dd83b3e88e89458f20a0b1c.php 第 41 行.
+NOTIC: [8] Undefined variable: vo D:\wamp\www\toumei\Application\Runtime\Cache\Admin\348efd2a0dd83b3e88e89458f20a0b1c.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-08T13:11:47+08:00 ] 127.0.0.1 /admin.php/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `xm_user` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `xm_user` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_user` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `uid`,`username`,`password`,`email`,`mobile`,`login`,`reg_time`,`reg_ip`,`last_login_ip`,`last_login_time`,`update_time`,`status` FROM `xm_user` WHERE `status` = 0 ORDER BY uid desc LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: vo D:\wamp\www\toumei\Application\Runtime\Cache\Admin\348efd2a0dd83b3e88e89458f20a0b1c.php 第 41 行.
+NOTIC: [8] Undefined variable: vo D:\wamp\www\toumei\Application\Runtime\Cache\Admin\348efd2a0dd83b3e88e89458f20a0b1c.php 第 41 行.
+NOTIC: [8] Undefined variable: vo D:\wamp\www\toumei\Application\Runtime\Cache\Admin\348efd2a0dd83b3e88e89458f20a0b1c.php 第 41 行.
+NOTIC: [8] Undefined variable: vo D:\wamp\www\toumei\Application\Runtime\Cache\Admin\348efd2a0dd83b3e88e89458f20a0b1c.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-08T13:11:48+08:00 ] 127.0.0.1 /admin.php/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `xm_user` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `xm_user` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_user` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `uid`,`username`,`password`,`email`,`mobile`,`login`,`reg_time`,`reg_ip`,`last_login_ip`,`last_login_time`,`update_time`,`status` FROM `xm_user` WHERE `status` = 0 ORDER BY uid desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: vo D:\wamp\www\toumei\Application\Runtime\Cache\Admin\348efd2a0dd83b3e88e89458f20a0b1c.php 第 41 行.
+NOTIC: [8] Undefined variable: vo D:\wamp\www\toumei\Application\Runtime\Cache\Admin\348efd2a0dd83b3e88e89458f20a0b1c.php 第 41 行.
+NOTIC: [8] Undefined variable: vo D:\wamp\www\toumei\Application\Runtime\Cache\Admin\348efd2a0dd83b3e88e89458f20a0b1c.php 第 41 行.
+NOTIC: [8] Undefined variable: vo D:\wamp\www\toumei\Application\Runtime\Cache\Admin\348efd2a0dd83b3e88e89458f20a0b1c.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-08T13:11:50+08:00 ] 127.0.0.1 /admin.php/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `xm_user` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `xm_user` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_user` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `uid`,`username`,`password`,`email`,`mobile`,`login`,`reg_time`,`reg_ip`,`last_login_ip`,`last_login_time`,`update_time`,`status` FROM `xm_user` WHERE `status` = 0 ORDER BY uid desc LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: vo D:\wamp\www\toumei\Application\Runtime\Cache\Admin\348efd2a0dd83b3e88e89458f20a0b1c.php 第 41 行.
+NOTIC: [8] Undefined variable: vo D:\wamp\www\toumei\Application\Runtime\Cache\Admin\348efd2a0dd83b3e88e89458f20a0b1c.php 第 41 行.
+NOTIC: [8] Undefined variable: vo D:\wamp\www\toumei\Application\Runtime\Cache\Admin\348efd2a0dd83b3e88e89458f20a0b1c.php 第 41 行.
+NOTIC: [8] Undefined variable: vo D:\wamp\www\toumei\Application\Runtime\Cache\Admin\348efd2a0dd83b3e88e89458f20a0b1c.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-08T15:23:45+08:00 ] 127.0.0.1 /admin.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-08T15:23:45+08:00 ] 127.0.0.1 /admin.php/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2017-06-08T15:28:56+08:00 ] 127.0.0.1 /admin.php/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: select version() as v; [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-08T15:28:58+08:00 ] 127.0.0.1 /admin.php/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: select version() as v; [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-08T15:29:00+08:00 ] 127.0.0.1 /admin.php/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `xm_user` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `xm_user` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_user` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `uid`,`username`,`password`,`email`,`mobile`,`login`,`reg_time`,`reg_ip`,`last_login_ip`,`last_login_time`,`update_time`,`status` FROM `xm_user` WHERE `status` = 0 ORDER BY uid desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: vo D:\wamp\www\toumei\Application\Runtime\Cache\Admin\348efd2a0dd83b3e88e89458f20a0b1c.php 第 41 行.
+NOTIC: [8] Undefined variable: vo D:\wamp\www\toumei\Application\Runtime\Cache\Admin\348efd2a0dd83b3e88e89458f20a0b1c.php 第 41 行.
+NOTIC: [8] Undefined variable: vo D:\wamp\www\toumei\Application\Runtime\Cache\Admin\348efd2a0dd83b3e88e89458f20a0b1c.php 第 41 行.
+NOTIC: [8] Undefined variable: vo D:\wamp\www\toumei\Application\Runtime\Cache\Admin\348efd2a0dd83b3e88e89458f20a0b1c.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-08T15:29:04+08:00 ] 127.0.0.1 /admin.php/User/edit/uid/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `xm_user` [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: info D:\wamp\www\toumei\Application\Runtime\Cache\Admin\c5c8f88f4330c605468367c8bb60454a.php 第 20 行.
+NOTIC: [8] Undefined variable: role_list D:\wamp\www\toumei\Application\Runtime\Cache\Admin\c5c8f88f4330c605468367c8bb60454a.php 第 35 行.
+NOTIC: [8] Undefined variable: info D:\wamp\www\toumei\Application\Runtime\Cache\Admin\c5c8f88f4330c605468367c8bb60454a.php 第 44 行.
+NOTIC: [8] Undefined variable: info D:\wamp\www\toumei\Application\Runtime\Cache\Admin\c5c8f88f4330c605468367c8bb60454a.php 第 48 行.
+NOTIC: [8] Undefined variable: info D:\wamp\www\toumei\Application\Runtime\Cache\Admin\c5c8f88f4330c605468367c8bb60454a.php 第 54 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-08T15:29:08+08:00 ] 127.0.0.1 /admin.php/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `xm_user` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `xm_user` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xm_user` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `uid`,`username`,`password`,`email`,`mobile`,`login`,`reg_time`,`reg_ip`,`last_login_ip`,`last_login_time`,`update_time`,`status` FROM `xm_user` WHERE `status` = 0 ORDER BY uid desc LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: vo D:\wamp\www\toumei\Application\Runtime\Cache\Admin\348efd2a0dd83b3e88e89458f20a0b1c.php 第 41 行.
+NOTIC: [8] Undefined variable: vo D:\wamp\www\toumei\Application\Runtime\Cache\Admin\348efd2a0dd83b3e88e89458f20a0b1c.php 第 41 行.
+NOTIC: [8] Undefined variable: vo D:\wamp\www\toumei\Application\Runtime\Cache\Admin\348efd2a0dd83b3e88e89458f20a0b1c.php 第 41 行.
+NOTIC: [8] Undefined variable: vo D:\wamp\www\toumei\Application\Runtime\Cache\Admin\348efd2a0dd83b3e88e89458f20a0b1c.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-08T15:29:16+08:00 ] 127.0.0.1 /admin.php/User/del/uid/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xm_user` [ RunTime:0.0050s ]
+ERR: 非法操作:del
+
+[ 2017-06-08T15:29:22+08:00 ] 127.0.0.1 /admin.php/User/del/uid/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `xm_user` [ RunTime:0.0050s ]
+ERR: 非法操作:del
+
+[ 2017-06-08T15:29:28+08:00 ] 127.0.0.1 /admin.php/User/del/uid/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xm_user` [ RunTime:0.0060s ]
+ERR: 非法操作:del
+
