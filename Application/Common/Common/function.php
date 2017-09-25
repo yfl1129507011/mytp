@@ -10,11 +10,11 @@
  * 检测用户是否登录
  */
 function is_login(){
-    $user = session('user_auth');
+    $user = session('user_auth_'.strtolower(MODULE_NAME));
     if (empty($user)) {
         return 0;
     } else {
-        return session('user_auth_sign') == data_auth_sign($user) ? $user['uid'] : 0;
+        return session('user_auth_sign_'.strtolower(MODULE_NAME)) == data_auth_sign($user) ? $user['uid'] : 0;
     }
 }
 
@@ -107,8 +107,88 @@ function curlHttp($url, $data=null, $timeout=0){
     curl_close($curl);
 
     if($error){
-        var_dump($error);die;
+        //var_dump($error);die;
         return false;
     }
     return $output;
+}
+
+
+/**
+ * 检测验证码
+ * @param $code
+ * @param  integer $id 验证码ID
+ * @return bool 检测结果
+ */
+function check_verify($code, $id = 1){
+    $verify = new \Think\Verify();
+    return $verify->check($code, $id);
+}
+
+/**
+ * 密码加密
+ * @param $word
+ * @param string $key
+ * @return string
+ */
+function md5_sha1($word, $key = 'fenlon'){
+    return empty($word)?'':md5(sha1($word).$key);
+}
+
+
+/**
+ * 验证手机号是否正确
+ * @param INT $mobile
+ * @return bool
+ */
+function isMobile($mobile) {
+    if (!is_numeric($mobile)) {
+        return false;
+    }
+    return preg_match('#^13[\d]{9}$|^14[5,7]{1}\d{8}$|^15[^4]{1}\d{8}$|^17[0,6,7,8]{1}\d{8}$|^18[\d]{9}$#', $mobile) ? true : false;
+}
+
+/**
+ * 验证邮箱是否正确
+ * @param INT $email
+ * @return bool
+ */
+function isEmail($email) {
+    return preg_match('#^[a-z0-9._%-]+@([a-z0-9-]+\.)+[a-z]{2,4}$#', $email) ? true : false;
+    //return preg_match('#^[a-z0-9._%-]+@([a-z0-9-]+\.)+[a-z]{2,4}$|^1[3|4|5|7|8]\d{9}$#', $email) ? true : false;
+}
+
+/**
+ * xss过滤函数
+ *
+ * @param $string
+ * @return string
+ */
+function remove_xss($string)
+{
+    $string = preg_replace('/[\x00-\x08\x0B\x0C\x0E-\x1F\x7F]+/S', '', $string);
+
+    $parm1 = Array('javascript', 'vbscript', 'expression', 'applet', 'meta', 'xml', 'blink', 'link', 'script', 'embed', 'object', 'iframe', 'frame', 'frameset', 'ilayer', 'layer', 'bgsound', 'title', 'base');
+
+    $parm2 = Array('onabort', 'onactivate', 'onafterprint', 'onafterupdate', 'onbeforeactivate', 'onbeforecopy', 'onbeforecut', 'onbeforedeactivate', 'onbeforeeditfocus', 'onbeforepaste', 'onbeforeprint', 'onbeforeunload', 'onbeforeupdate', 'onblur', 'onbounce', 'oncellchange', 'onchange', 'onclick', 'oncontextmenu', 'oncontrolselect', 'oncopy', 'oncut', 'ondataavailable', 'ondatasetchanged', 'ondatasetcomplete', 'ondblclick', 'ondeactivate', 'ondrag', 'ondragend', 'ondragenter', 'ondragleave', 'ondragover', 'ondragstart', 'ondrop', 'onerror', 'onerrorupdate', 'onfilterchange', 'onfinish', 'onfocus', 'onfocusin', 'onfocusout', 'onhelp', 'onkeydown', 'onkeypress', 'onkeyup', 'onlayoutcomplete', 'onload', 'onlosecapture', 'onmousedown', 'onmouseenter', 'onmouseleave', 'onmousemove', 'onmouseout', 'onmouseover', 'onmouseup', 'onmousewheel', 'onmove', 'onmoveend', 'onmovestart', 'onpaste', 'onpropertychange', 'onreadystatechange', 'onreset', 'onresize', 'onresizeend', 'onresizestart', 'onrowenter', 'onrowexit', 'onrowsdelete', 'onrowsinserted', 'onscroll', 'onselect', 'onselectionchange', 'onselectstart', 'onstart', 'onstop', 'onsubmit', 'onunload', 'prompt');
+
+    $parm = array_merge($parm1, $parm2);
+
+    for ($i = 0; $i < sizeof($parm); $i++) {
+        $pattern = '/';
+        for ($j = 0; $j < strlen($parm[$i]); $j++) {
+            if ($j > 0) {
+                $pattern .= '(';
+                $pattern .= '(&#[x|X]0([9][a][b]);?)?';
+                $pattern .= '|(&#0([9][10][13]);?)?';
+                $pattern .= ')?';
+            }
+            $pattern .= $parm[$i][$j];
+        }
+        $pattern .= '/i';
+        $string = preg_replace($pattern, ' ', $string);
+        $string = preg_replace('/\(/', ' ', $string);
+        $string = preg_replace('/\)/', ' ', $string);
+    }
+    return $string;
 }

@@ -1,0 +1,32 @@
+<header>
+  <div class="header">
+    <div class="logoBox fl"><img src="__IMG__/u45.png" /></div>
+    <div class="logoDesc fl">
+      <span class="logoText">FenLon</span>
+      <span class="desc">基于深度学习的达人价值提升平台</span>
+    </div>
+    <ul class="menuBox fr">
+      <li <if condition="CONTROLLER_NAME eq 'Index'"> class="active" </if> url="{:U('Index/index')}">首页</li>
+      <li <if condition="CONTROLLER_NAME eq 'Monitor'"> class="active" </if> url="{:U('Monitor/index')}">爆点监测</li>
+      <li <if condition="CONTROLLER_NAME eq 'Kol'"> class="active" </if> url="{:U('Kol/index')}">KOL列表</li>
+      <li <if condition="CONTROLLER_NAME eq 'Compare'"> class="active" </if> url="{:U('Compare/index')}">对比分析</li>
+      <li <if condition="CONTROLLER_NAME eq 'Main'"> class="active" </if> url="{:U('Main/index')}">我的主页</li>
+      <li <if condition="CONTROLLER_NAME eq 'User'"> class="active" </if> url="{:U('User/logout')}">退出</li>
+    </ul>
+    <div class="cl"></div>
+  </div>
+</header>
+<script>
+  $(function(){
+    $('.menuBox').on('click','li',function(){
+      var that = $(this);
+      if(!that.hasClass('active')) {
+        that.siblings().removeClass('active');
+        that.addClass('active');
+      }
+      var url = that.attr('url');
+      if(!url) return;
+      location.href = url;
+    });
+  });
+</script>

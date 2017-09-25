@@ -9,7 +9,8 @@ input:-webkit-autofill {
     -webkit-box-shadow: 0 0 0px 1000px white inset;
 }
 #login_warp{
-    width: 320px;
+    /*width: 320px;*/
+    width: 400px;
     height: 472px;
     margin:-251px auto 0px;
     position:relative;
@@ -17,7 +18,7 @@ input:-webkit-autofill {
 }
 #logo_content{
     width:100%;
-    height:164px;
+    /*height:164px;*/
 }
 #login_content{
     background:#ffffff;

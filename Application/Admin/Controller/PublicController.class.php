@@ -35,8 +35,8 @@ class PublicController extends \Think\Controller {
                     'uid'             => $uid,
                     'username'        => $username,
                 );
-                session('user_auth', $auth);
-                session('user_auth_sign', data_auth_sign($auth));
+                session('user_auth_admin', $auth);
+                session('user_auth_sign_admin', data_auth_sign($auth));
 
                 $this->success('登录成功！', U('Index/index'));
             } else { //登录失败
@@ -62,9 +62,8 @@ class PublicController extends \Think\Controller {
      */
     public function logout(){
         if(is_login()){
-            session('user_auth', null);
-            session('user_auth_sign', null);
-            session('[destroy]');
+            session('user_auth_admin', null);
+            session('user_auth_sign_admin', null);
             $this->redirect('login');
         } else {
             $this->redirect('login');

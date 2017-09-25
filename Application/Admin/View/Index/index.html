@@ -34,7 +34,7 @@
                     <a target="main" href="{:U('Index/main')}" class="menu-name active"> 首页</a>
                     <ul class="menu_list" >
                         <li><a target="main" href="{:U('Index/main')}" class="active">系统信息</a></li>
-                        <li><a target="main" href="{:U('Index/info')}?mid={:session('user_auth.uid')}">修改个人信息</a></li>
+                        <li><a target="main" href="{:U('Index/info')}?mid={:session('user_auth_admin.uid')}">修改个人信息</a></li>
                     </ul>
                 </li>
                 <li>
@@ -52,7 +52,11 @@
             </ul>
 		</div>
 		<div class="admin_path">
-			<span class="info">您好！<strong title="{:session('user_auth.username')}" style="color:green;font-size:14px;">{:session('user_auth.username')}</strong>，欢迎您的光临。</span>
+			<span class="info">
+                您好！<strong title="{:session('user_auth_admin.username')}" style="color:green;font-size:14px;">
+                    {:session('user_auth_admin.username')}
+                </strong>，欢迎您的光临。
+            </span>
 			<span class="path">
 				<!--<a target="main" href="javascript:;"> 开始</a>&nbsp;&nbsp;/&nbsp;&nbsp;后台首页-->
 			</span>

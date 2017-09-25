@@ -3,7 +3,7 @@
 	<div class="operate align-r">
 		<input type="button" class="button border-green" value="返回列表" onclick="location.href='{:U('index')}'" />
 	</div>
-	<form action="{:U($_action)}" method="post" class="form">
+	<form action="__SELF__" method="post" class="form">
 	<table>
 		<tr>
 			<th>用户名称</th>
@@ -11,11 +11,11 @@
 		</tr>
 		<tr>
 			<th>登录密码</th>
-			<td><input <if condition="$_action eq 'add'">value="123456"</if> class="input" type="password" name="password" /><span class="check-tips">（用户密码不能少于6位,默认密码123456）</span></td>
+			<td><input <if condition="ACTION_NAME eq 'add'">value="123456"</if> class="input" type="password" name="password" /><span class="check-tips">（用户密码不能少于6位,默认密码123456）</span></td>
 		</tr>
 		<tr>
 			<th>确认密码</th>
-			<td><input <if condition="$_action eq 'add'">value="123456"</if> class="input" type="password" name="repassword" /></td>
+			<td><input <if condition="ACTION_NAME eq 'add'">value="123456"</if> class="input" type="password" name="repassword" /></td>
 		</tr>
 		<!--<tr>
 			<th>管理员类型</th>
